@@ -468,3 +468,9 @@ header p span {
     font-size: 13px;
   }
 }
+@media (max-width: 1000px) {
+  .box{
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
