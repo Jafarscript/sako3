@@ -148,7 +148,7 @@ header p span {
 }
 .order{
   padding: 30px;
-  padding-left: 70px;
+  padding-left: 60px;
 }
 .order .title{
   display: flex;
@@ -157,7 +157,7 @@ header p span {
   margin-bottom: 20px;
 }
 .order .title h3{
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Catamaran", sans-serif;
 }
 
@@ -177,6 +177,7 @@ header p span {
 .box{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .box1{
   padding: 20px;
@@ -296,8 +297,11 @@ header p span {
   header p {
     font-size: 12px;
   }
-  .fixediv {
+  .fixedivm {
     padding: 20px;
+  }
+  .fixedivm .paste{
+    font-size: 13px;
   }
   .target .right h3 {
     font-size: 13px;
@@ -313,14 +317,22 @@ header p span {
     text-align: center;
     display: none;
   }
-  .fixediv ul li {
+  .fixediv ul li span{
     font-size: 10px;
     margin-left: 9px;
+    display: none;
   }
   .fixediv ul li i {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    margin-right: 4px;
+    margin-right: 0px;
+  }
+  .fixediv ul li #bag{
+    font-size: 20px;
+    margin-right: 0px;
+  }
+  .fixediv ul li sup{
+    font-size: 10px;
   }
   .goods {
     padding: 20px;
@@ -396,80 +408,63 @@ header p span {
   .btn .btn2 {
     padding: 11px 20px;
   }
-  .search {
-    text-align: center;
-  }
-  .search input {
-    width: 200px;
-    font-size: 12px;
-    padding: 5px;
-  }
-  .search i {
-    font-size: 16px;
-    padding: 5px;
-    top: -75%;
-  }
-  .product {
-    padding: 1px 20px;
-  }
-  .mainp {
-    grid-template-columns: 1fr;
-  }
-  .boxes {
+  .product{
     padding: 20px;
+  }
+  .details{
+    grid-template-columns: 1fr;
+    height: auto;
+    border: none;
+  }
+  .place{
+    padding: 10px;
     border-right: none;
   }
-  .box {
-    width: 100%;
-  }
-  .text img {
-    width: 40px;
-    height: 50px;
-  }
-  .text h5 {
-    font-size: 11px;
-  }
-  .text h4 {
-    font-size: 12px;
-  }
-  .text s {
-    font-size: 10px;
-  }
-  .box button {
-    font-size: 10px;
-  }
-  .boxes h3 {
-    font-size: 15px;
-  }
-  .add h3 {
-    font-size: 15px;
-  }
-  .cen {
-    margin-bottom: 0px;
-  }
-  .cen .icon {
-    font-size: 50px;
-  }
-  .cen h4 {
+  .place h3{
     font-size: 13px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
-  .cen .text2 {
-    font-size: 12px;
-  }
-  .add {
-    margin-bottom: 30px;
-  }
-  .btn {
-    display: flex;
-    flex-direction: row;
+  .box{
     justify-content: center;
   }
-  .btn button {
-    padding: 9px 13px;
-    font-size: 5px;
+  .box1{
+    width: auto;
+    margin-right: 0px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
   }
-
-  .btn .btn2 {
-    padding: 10px 10px;
+  .box2{
+    width: auto;
+    padding: 10px;
+    margin-right: 0px;
+  }
+  .order{
+    padding: 10px;
+  }
+  .order .title h3{
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .title span{
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid;
+  }
+  .title span i{
+    margin-right: 5px;
+  }
+  .box1 .mead i{
+    font-size: 30px;
+  }
+  .box2 .mead2 i{
+    font-size: 25px;
+    color: rgb(71, 70, 70, 0.9);
+    padding: 5px;
+  }
+  .box2 .mead2 h4{
+    font-size: 13px;
   }
 }
